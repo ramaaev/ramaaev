@@ -39,6 +39,32 @@ const products = {
       'assets/images/G-Light/sky-blue-front.png',
       'assets/images/G-Light/sky-blue-side.png'
     ]
+  },
+
+  gone: {
+    black: [
+      'assets/images/G-One/black.png',
+      'assets/images/G-One/black-front.png',
+      'assets/images/G-One/black-side.png'
+    ],
+
+    white: [
+      'assets/images/G-One/white.png',
+      'assets/images/G-One/white-front.png',
+      'assets/images/G-One/white-side.png'
+    ],
+
+    blue: [
+      'assets/images/G-One/blue.png',
+      'assets/images/G-One/blue-front.png',
+      'assets/images/G-One/blue-side.png'
+    ],
+
+    orange: [
+      'assets/images/G-One/orange.png',
+      'assets/images/G-One/orange-front.png',
+      'assets/images/G-One/orange-side.png'
+    ]
   }
 };
 
@@ -49,6 +75,11 @@ const galleryState = {
   },
 
   glight: {
+    colour: 'black',
+    imageIndex: 0
+  },
+
+  gone: {
     colour: 'black',
     imageIndex: 0
   }
