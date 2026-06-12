@@ -1,24 +1,44 @@
 const products = {
   grazor: {
     black: [
-      'assets/images/G-Razor-black.png',
-      'assets/images/G-Razor-black-front.png',
-      'assets/images/G-Razor-black-side.png'
+      'assets/images/G-Razor/G-Razor-black.png',
+      'assets/images/G-Razor/G-Razor-black-front.png',
+      'assets/images/G-Razor/G-Razor-black-side.png'
     ],
 
     white: [
-      'assets/images/G-Razor-white.png',
-      'assets/images/G-Razor-white-front.png',
-      'assets/images/G-Razor-white-side.png'
+      'assets/images/G-Razor/G-Razor-white.png',
+      'assets/images/G-Razor/G-Razor-white-front.png',
+      'assets/images/G-Razor/G-Razor-white-side.png'
     ]
   },
 
   glight: {
-    red: [],
-    blue: [],
-    green: [],
-    white: [],
-    yellow: []
+    black: [
+      'assets/images/G-Light/black.webp',
+      'assets/images/G-Light/black-front.webp',
+      'assets/images/G-Light/black-side.webp'
+    ],
+    blue: [
+      'assets/images/G-Light/blue.webp',
+      'assets/images/G-Light/blue-front.png',
+      'assets/images/G-Light/blue-side.png'
+    ],
+    gray: [
+      'assets/images/G-Light/gray.webp',
+      'assets/images/G-Light/gray-front.png',
+      'assets/images/G-Light/gray-side.png'
+    ],
+    white: [
+      'assets/images/G-Light/sky-blue.webp',
+      'assets/images/G-Light/white-front.png',
+      'assets/images/G-Light/white-side.png'
+    ],
+    skyblue: [
+      'assets/images/G-Light/sky-blue.webp',
+      'assets/images/G-Light/sky-blue-front.png',
+      'assets/images/G-Light/sky-blue-side.png'
+    ]
   }
 };
 
@@ -29,7 +49,7 @@ const galleryState = {
   },
 
   glight: {
-    colour: 'red',
+    colour: 'black',
     imageIndex: 0
   }
 };

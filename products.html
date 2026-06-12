@@ -57,7 +57,7 @@
       <img
         id="grazor-main"
         class="gallery-main"
-        src="assets/images/G-Razor-black.png"
+        src="assets/images/G-Razor/G-Razor-black.png"
         alt="G-Razor electric scooter — black"
         loading="lazy"
         onerror="this.src='https://lh3.googleusercontent.com/aida-public/AB6AXuBkkS8Hmdx6avWCIeBmASc4s9DUzGogW2Wea2nIYi0JeFanz0C6NPhX5vfVH2hCxBzZVqYYn7jnFfiafAK5ZevNvKSkA3IP4wHA2wfGKkSeBFCNLilbMQ9Urxj7J9sClTiVp0Zmu9IvDpuZkKlp48G_0GTkg5hd85MJptYRwQLBhUP1YR0hEzslx5Vw690AJguFTeZwp4ZmvM3mQPg9NQIUPjbkVHfXHSqd8SVZAvDHt5trEikdvaYbnAUu23PWjUvHFbhF0wZfFeU'"
@@ -81,13 +81,13 @@
 
     <!-- Thumbnail strip -->
     <div id="grazor-thumbs" class="thumb-strip">
-      <img class="thumb active" src="assets/images/G-Razor-black.png" alt="Front view" loading="lazy"
+      <img class="thumb active" src="assets/images/G-Razor/G-Razor-black.png" alt="Front view" loading="lazy"
         onclick="switchMain('grazor',0,this)"
         onerror="this.style.display='none'"/>
-      <img class="thumb" src="assets/images/G-Razor-black-front.png" alt="Side view" loading="lazy"
+      <img class="thumb" src="assets/images/G-Razor/G-Razor-black-front.png" alt="Side view" loading="lazy"
         onclick="switchMain('grazor',1,this)"
         onerror="this.style.display='none'"/>
-      <img class="thumb" src="assets/images/G-Razor-black-side.png" alt="Three-quarter view" loading="lazy"
+      <img class="thumb" src="assets/images/G-Razor/G-Razor-black-side.png" alt="Three-quarter view" loading="lazy"
         onclick="switchMain('grazor',2,this)"
         onerror="this.style.display='none'"/>
     </div>
@@ -215,18 +215,190 @@
 
 <div class="divider"></div>
 
-<!-- COMING SOON PLACEHOLDER -->
-<!-- To add a second product: replace this block with a copy of the product section above -->
-<section class="product-section" id="coming-soon">
-  <p class="section-label" style="padding:0 0 8px">More Models</p>
-  <div class="coming-soon-card">
-    <div class="coming-soon-icon">
-      <svg viewBox="0 0 24 24"><path d="M7 2L2 13h7l-1 9 14-12h-8l2-8z"/></svg>
+<!-- ═══════════════════════════════════════════
+     PRODUCT 1: G-Light
+════════════════════════════════════════════ -->
+<section class="product-section" id="g-light">
+  <div class="product-detail-card">
+
+    <!-- Image gallery -->
+    <div class="gallery-wrap">
+      <img
+        id="glight-main"
+        class="gallery-main"
+        src="assets/images/G-Light/black.webp"
+        alt="G-Light electric scooter — black"
+        loading="lazy"
+        onerror="this.src='https://lh3.googleusercontent.com/aida-public/AB6AXuBkkS8Hmdx6avWCIeBmASc4s9DUzGogW2Wea2nIYi0JeFanz0C6NPhX5vfVH2hCxBzZVqYYn7jnFfiafAK5ZevNvKSkA3IP4wHA2wfGKkSeBFCNLilbMQ9Urxj7J9sClTiVp0Zmu9IvDpuZkKlp48G_0GTkg5hd85MJptYRwQLBhUP1YR0hEzslx5Vw690AJguFTeZwp4ZmvM3mQPg9NQIUPjbkVHfXHSqd8SVZAvDHt5trEikdvaYbnAUu23PWjUvHFbhF0wZfFeU'"
+      />
+      <!-- Colour swatches -->
+      <div class="colour-row">
+        <button
+          class="colour-swatch active"
+          style="background:#1a1a1a;border-color:rgba(255,255,255,0.15);"
+          title="Matte Black"
+          onclick="switchColour('glight','black',this)"
+          aria-label="Matte Black"></button>
+        <button
+          class="colour-swatch"
+          style="background:#f0f0f0;border-color:rgba(0,0,0,0.1);"
+          title="Pearl White"
+          onclick="switchColour('glight','white',this)"
+          aria-label="Pearl White"></button>
+          <button
+          class="colour-swatch"
+          style="background:#1100ff;border-color:rgba(0,0,0,0.1);"
+          title="Blue"
+          onclick="switchColour('glight','blue',this)"
+          aria-label="Blue"></button>
+          <button
+          class="colour-swatch"
+          style="background:#808080;border-color:rgba(0,0,0,0.1);"
+          title="Gray"
+          onclick="switchColour('glight','gray',this)"
+          aria-label="Gray"></button>
+          <button
+          class="colour-swatch"
+          style="background:#87CEEB;border-color:rgba(0,0,0,0.1);"
+          title="Sky Blue"
+          onclick="switchColour('glight','skyblue',this)"
+          aria-label="Sky Blue"></button>
+      </div>
     </div>
-    <div class="coming-soon-title">More Models Coming Soon</div>
-    <p class="coming-soon-desc">New additions to the Ramaa EV lineup are on the way. Visit the showroom or call us to know what's arriving next.</p>
+
+    <!-- Thumbnail strip -->
+    <div id="glight-thumbs" class="thumb-strip">
+      <img class="thumb active" src="assets/images/G-Light/black.webp" alt="Front view" loading="lazy"
+        onclick="switchMain('glight',0,this)"
+        onerror="this.style.display='none'"/>
+      <img class="thumb" src="assets/images/G-Light/black-front.webp" alt="Side view" loading="lazy"
+        onclick="switchMain('glight',1,this)"
+        onerror="this.style.display='none'"/>
+      <img class="thumb" src="assets/images/G-Light/black-side.webp" alt="Three-quarter view" loading="lazy"
+        onclick="switchMain('glight',2,this)"
+        onerror="this.style.display='none'"/>
+    </div>
+
+    <!-- Product content -->
+    <div class="product-body">
+      <div class="product-header">
+        <span class="product-name">G-Light</span>
+        <span class="product-badge">City Scooter</span>
+      </div>
+      <p class="product-tagline">Smooth power, smart tech, and a ride that fits every road — from market lanes to highway stretches.</p>
+
+      <div class="spec-divider"></div>
+      <p class="spec-section-label">At a Glance</p>
+
+      <!-- Key spec grid -->
+      <div class="spec-grid">
+        <div class="spec-item">
+          <div class="spec-item-label">Range</div>
+          <div class="spec-item-value">100<span class="spec-item-unit">km</span></div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-item-label">Top Speed</div>
+          <div class="spec-item-value">46<span class="spec-item-unit">km/h</span></div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-item-label">Motor</div>
+          <div class="spec-item-value">250<span class="spec-item-unit">W</span></div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-item-label">Load</div>
+          <div class="spec-item-value">200<span class="spec-item-unit">kg</span></div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-item-label">Boot Space</div>
+          <div class="spec-item-value">17<span class="spec-item-unit">L</span></div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-item-label">Charger</div>
+          <div class="spec-item-value" style="font-size:13px">6A<span class="spec-item-unit"> Auto cut-off</span></div>
+        </div>
+      </div>
+
+      <!-- Full spec accordion -->
+      <div class="spec-accordion">
+        <div class="spec-accordion-item">
+          <button class="spec-accordion-btn" onclick="toggleAccordion(this)">
+            Speed &amp; Range
+            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="spec-accordion-panel">
+            <table class="spec-table">
+              <tr><td>Range (single charge)</td><td>Up to 100 km</td></tr>
+              <tr><td>Top Speed</td><td>46 km/h</td></tr>
+              <tr><td>Reverse Mode</td><td>25 km/h (with reverse)</td></tr>
+              <tr><td>Ride Modes</td><td>Eco · Normal · Sport · Reverse</td></tr>
+              <tr><td>Speedometer</td><td>Smart Digital Meter</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="spec-accordion-item">
+          <button class="spec-accordion-btn" onclick="toggleAccordion(this)">
+            Motor &amp; Battery
+            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="spec-accordion-panel">
+            <table class="spec-table">
+              <tr><td>Motor Type</td><td>250W BLDC Hub Motor</td></tr>
+              <tr><td>Motor Warranty</td><td>2 years</td></tr>
+              <tr><td>Battery</td><td>60V NMC Waterproof Lithium-Ion</td></tr>
+              <tr><td>Battery Warranty</td><td>3 years</td></tr>
+              <tr><td>Charger</td><td>Lithium 6A with Auto Cut-Off</td></tr>
+              <tr><td>USB Charging</td><td>Port available</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="spec-accordion-item">
+          <button class="spec-accordion-btn" onclick="toggleAccordion(this)">
+            Brakes &amp; Suspension
+            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="spec-accordion-panel">
+            <table class="spec-table">
+              <tr><td>Front Brake</td><td>Disc Brake 220mm</td></tr>
+              <tr><td>Rear Brake</td><td>Drum Brake</td></tr>
+              <tr><td>Front Suspension</td><td>Hydraulic Telescopic Forks</td></tr>
+              <tr><td>Rear Suspension</td><td>Twin Shock Absorbers</td></tr>
+              <tr><td>Tyres</td><td>90/100 – 10, 3.0 – 10 (Tubeless)</td></tr>
+              <tr><td>Alloy Rim</td><td>3.00 – 10"</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="spec-accordion-item">
+          <button class="spec-accordion-btn" onclick="toggleAccordion(this)">
+            Features &amp; Comfort
+            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="spec-accordion-panel">
+            <table class="spec-table">
+              <tr><td>Headlight</td><td>LED with DRL</td></tr>
+              <tr><td>Load Capacity</td><td>Up to 200 kg</td></tr>
+              <tr><td>Boot Space</td><td>17 litres</td></tr>
+              <tr><td>Colours</td><td>Matte Black · Pearl White</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTAs -->
+      <div class="cta-row">
+        <a href="https://wa.me/919638720030?text=Hi%2C+I%27m+interested+in+the+G-Razor.+Can+you+help+me?"
+           target="_blank" rel="noopener noreferrer" class="btn-primary">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Enquire Now
+        </a>
+        <a href="tel:+919638720030" class="btn-outline">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          Call Us
+        </a>
+      </div>
+    </div>
   </div>
 </section>
+<!-- END PRODUCT: G-RAZOR -->
 
 <!-- FABs -->
 <div class="fabs">
