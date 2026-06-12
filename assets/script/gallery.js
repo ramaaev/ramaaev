@@ -30,8 +30,8 @@ const products = {
       'assets/images/G-Light/gray-side.png'
     ],
     white: [
-      'assets/images/G-Light/sky-blue.webp',
-      'assets/images/G-Light/white-front.png',
+      'assets/images/G-Light/white.png',
+      'assets/images/G-Light/sky-blue-front.png',
       'assets/images/G-Light/white-side.png'
     ],
     skyblue: [
